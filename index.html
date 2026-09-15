@@ -14,7 +14,7 @@
 
 <aside class="sidebar">
   <div class="profile-block">
-    <img class="avatar" src="assets/img/profile.svg" alt="장광우 프로필 사진" />
+    <img class="avatar" src="assets/img/profile-photo.png" alt="장광우 프로필 사진" />
     <h1>장광우</h1>
     <p class="name-en">Kwangwoo Jang, Ph.D.</p>
     <p class="degree">KAIST 항공우주공학 박사</p>
@@ -104,13 +104,10 @@
       <h2>연구경력 및 학력</h2>
     </div>
     <div class="timeline">
-      <div class="timeline-item"><div class="timeline-date">2025–Present</div><div><h3>한국전자통신연구원 (ETRI)</h3><p class="timeline-sub">Research Engineer · Air Mobility Research Division</p><p>Air Mobility, 무인항공시스템, 온보드 인지 및 자율비행 기술 연구개발.</p></div></div>
-      <div class="timeline-item"><div class="timeline-date">2020–2025</div><div><h3>KAIST 항공우주공학 박사</h3><p class="timeline-sub">Sampling-Based Motion Planning for Multirotor UAVs</p><p>MPPI 기반 motion planning, 정적·동적 장애물 충돌회피, terrain following 및 path-integral parameter estimation 연구.</p></div></div>
-      <div class="timeline-item"><div class="timeline-date">2018–2020</div><div><h3>KAIST 항공우주공학 석사</h3><p class="timeline-sub">Quad-Tiltrotor Transition Flight Control</p><p>천이비행 동역학, nonlinear flight control 및 RBF-NN 기반 adaptive control 연구.</p></div></div>
-      <div class="timeline-item"><div class="timeline-date">2013–2018</div><div><h3>KAIST 항공우주공학 학사</h3><p>비행역학, 자동제어, 공기역학, 추진 및 항공우주시스템 전반의 기초 이수.</p></div></div>
-    </div>
-    <div class="capability-row" aria-label="기술 역량">
-      <span>C/C++</span><span>Python</span><span>MATLAB/Simulink</span><span>ROS/ROS2</span><span>PyTorch</span><span>HILS</span><span>Flight Test</span>
+      <div class="timeline-item"><div class="timeline-date">2025–Present</div><div><h3>한국전자통신연구원 (ETRI)</h3><p class="timeline-sub">Research Engineer · Air Mobility Research Division</p><p>UAV/UAM 지능형 비행시스템과 온보드 AI 기반 자율비행 기술을 연구하고 있습니다. 제한된 비행체 연산환경에서 인지·의사결정·제어가 실시간으로 연결되는 시스템 구현을 지향합니다.</p></div></div>
+      <div class="timeline-item"><div class="timeline-date">2020–2025</div><div><h3>KAIST 항공우주공학 박사</h3><p class="timeline-sub">Sampling-Based Motion Planning for Multirotor UAVs</p><p>MPPI 기반 지형추종과 정적·동적 장애물 환경의 3차원 충돌회피를 연구했습니다. Pilot model 추정, GPU 병렬화를 통한 실시간화, HILS 검증까지 연결했습니다.</p></div></div>
+      <div class="timeline-item"><div class="timeline-date">2018–2020</div><div><h3>KAIST 항공우주공학 석사</h3><p class="timeline-sub">Quad-Tiltrotor Transition Flight Control</p><p>쿼드-틸트로터의 비선형 동역학을 모델링하고 천이비행 제어기와 RBF-NN 적응제어를 설계했습니다. 온보드 HILS와 실제 비행시험을 통해 제어 성능을 검증했습니다.</p></div></div>
+      <div class="timeline-item"><div class="timeline-date">2013–2018</div><div><h3>KAIST 항공우주공학 학사</h3><p class="timeline-sub">B.S. in Aerospace Engineering</p><p>비행역학·자동제어·공기역학·추진 및 항공우주시스템 설계의 기초를 이수하며 비행제어 연구의 기반을 형성했습니다.</p></div></div>
     </div>
   </section>
 
@@ -125,7 +122,13 @@
 
     <div class="featured-publications">
       <article class="featured-publication">
-        <div class="pub-visual"><img src="assets/img/mppi.svg" alt="MPPI 및 PIPE 기반 지형추종 유도 연구 대표 그림" /></div>
+        <div class="pub-visual terrain-gallery-web">
+          <img class="terrain-main" src="assets/img/terrain-hils-comparison.png" alt="HILS에서 PIO와 PIPE의 지형추종 고도 비교" />
+          <div class="terrain-support">
+            <img src="assets/img/terrain-pipe-estimation.png" alt="PIPE 조종사 입력 추정 결과" />
+            <img src="assets/img/terrain-hils-system.png" alt="비행조종간과 컴퓨터로 구성한 HILS 시스템" />
+          </div>
+        </div>
         <div class="pub-content">
           <div class="badge-row"><span class="badge strong">FIRST AUTHOR</span><span class="badge">JGCD 2026</span><span class="badge">HILS</span></div>
           <h3>Real-Time Terrain-Following Guidance for Mitigation of Pilot-Induced Oscillations</h3>
@@ -137,7 +140,13 @@
       </article>
 
       <article class="featured-publication">
-        <div class="pub-visual control-visual"><img src="assets/img/tiltrotor.svg" alt="시간 지연에 강건한 비선형 비행제어 연구 대표 그림" /></div>
+        <div class="pub-visual terrain-gallery-web">
+          <img class="terrain-main" src="assets/img/delay-margin-lead.png" alt="Lead compensator 적용 전후의 time-delay margin 비교" />
+          <div class="terrain-support">
+            <img src="assets/img/delay-flight-response.png" alt="Lead compensator를 적용한 실제 비행시험 body-rate 추종 결과" />
+            <img src="assets/img/delay-flight-test.png" alt="시간지연 보상 제어기를 검증한 멀티로터 비행시험" />
+          </div>
+        </div>
         <div class="pub-content">
           <div class="badge-row"><span class="badge strong">FIRST AUTHOR</span><span class="badge">JGCD 2024</span><span class="badge">FLIGHT TEST</span></div>
           <h3>Mitigating Time-Delay in Nonlinear Dynamics Inversion for Multirotor Unmanned Aerial Vehicles</h3>
@@ -149,18 +158,30 @@
       </article>
     </div>
 
-    <div class="publication-list secondary-publications">
-      <article class="publication"><div class="pub-year">2023</div><div class="pub-body"><div class="badge-row"><span class="badge strong">FIRST AUTHOR</span><span class="badge">KOREAN JOURNAL</span><span class="badge">MPPI</span></div><h3>모델 예측 경로 적분 기법 기반 항공기의 지형 추종을 위한 연산 유도 명령 생성 알고리즘</h3><p><strong>장광우</strong>, 홍경우, 방효충, 이상일, 전지연, 송기훈</p><p class="pub-summary">비볼록 비용함수와 MPPI를 활용해 안전 고도를 유지하는 지형추종 유도명령을 생성하고 3-DOF 및 6-DOF 시뮬레이션으로 검증했습니다.</p><p class="venue">한국항공우주학회지, 51(11), 769–777</p><div class="pub-links"><a href="https://doi.org/10.5139/JKSAS.2023.51.11.769" target="_blank" rel="noreferrer">Paper ↗</a></div></div></article>
-      <article class="publication"><div class="pub-year">2026</div><div class="pub-body"><div class="badge-row"><span class="badge">CO-AUTHOR</span><span class="badge">ONBOARD AI</span></div><h3>HashEye: a real-time on-drone high-resolution tiny object detection via spatial pruning</h3><p>Hyeonji Hong, Nakyeong Lee, <strong>Kwangwoo Jang</strong>, Gague Kim, Yangjae Jeong, et al.</p><p class="venue">Scientific Reports</p><div class="pub-links"><a href="https://doi.org/10.1038/s41598-026-51941-w" target="_blank" rel="noreferrer">Paper ↗</a></div></div></article>
-      <article class="publication"><div class="pub-year">2025</div><div class="pub-body"><div class="badge-row"><span class="badge">CO-AUTHOR</span><span class="badge">ADAPTIVE CONTROL</span></div><h3>Feedback linearization-based model reference adaptive control for multirotor UAVs under uncertainties from fuel and payload</h3><p>Jayden Dongwoo Lee, Lamsu Kim, <strong>Kwangwoo Jang</strong>, Seongheon Lee, Hyochoong Bang</p><p class="venue">Proceedings of the Institution of Mechanical Engineers, Part G: Journal of Aerospace Engineering</p><div class="pub-links"><a href="https://doi.org/10.1177/09544100241295840" target="_blank" rel="noreferrer">Paper ↗</a></div></div></article>
+    <div class="visual-publications">
+      <article class="visual-publication hasheye-paper">
+        <div class="secondary-pub-visual hasheye-figure"><img src="assets/img/hasheye-overview.png" alt="4K 드론 영상에서 SimHash로 배경 패치를 제거하고 유효 패치를 재배열해 객체를 검출하는 HashEye 파이프라인" /></div>
+        <div class="pub-content"><div class="badge-row"><span class="badge">SCIENTIFIC REPORTS 2026</span><span class="badge">CO-AUTHOR</span></div><h3>HashEye: a real-time on-drone high-resolution tiny object detection via spatial pruning</h3><p class="authors">Hyeonji Hong, Nakyeong Lee, <strong>Kwangwoo Jang</strong>, Gague Kim, Yangjae Jeong, et al.</p><p class="pub-contribution">4K 항공영상의 공간 중복을 제거하고 유효 패치를 재배열해 온보드 tiny object detection을 최대 5.25× 가속했습니다.</p><div class="pub-links"><a href="https://doi.org/10.1038/s41598-026-51941-w" target="_blank" rel="noreferrer">Paper ↗</a></div></div>
+      </article>
+      <article class="visual-publication feedback-paper">
+        <div class="secondary-pub-visual feedback-gallery">
+          <img src="assets/img/feedback-mrac.jpg" alt="Feedback linearization과 model reference adaptive control을 결합한 제어 구조" />
+          <img src="assets/img/feedback-fl-mrac-response.jpg" alt="FL 단독 제어와 FL+MRAC의 롤각 추종 성능 비교" />
+        </div>
+        <div class="pub-content"><div class="badge-row"><span class="badge">PROC. IMECHE PART G 2025</span><span class="badge">CO-AUTHOR</span></div><h3>Feedback linearization-based model reference adaptive control for multirotor UAVs under uncertainties from fuel and payload</h3><p class="authors">Jayden Dongwoo Lee, Lamsu Kim, <strong>Kwangwoo Jang</strong>, Seongheon Lee, Hyochoong Bang</p><p class="pub-contribution">비선형 동역학은 FL로 보상하고 MRAC 적응 입력으로 모델 불확실성을 추정해, 연료 소모와 편심 페이로드 환경에서도 자세·고도 추종성을 확보했습니다.</p><div class="pub-links"><a href="https://doi.org/10.1177/09544100241295840" target="_blank" rel="noreferrer">Paper ↗</a></div></div>
+      </article>
+    </div>
+
+    <div class="publication-list secondary-publications text-only-publications">
+      <article class="publication"><div class="pub-year">2023</div><div class="pub-body"><h3>모델 예측 경로 적분 기법 기반 항공기의 지형 추종을 위한 연산 유도 명령 생성 알고리즘</h3><p><strong>장광우</strong>, 홍경우, 방효충, 이상일, 전지연, 송기훈</p><p class="venue">한국항공우주학회지, 51(11), 769–777</p><div class="pub-links"><a href="https://doi.org/10.5139/JKSAS.2023.51.11.769" target="_blank" rel="noreferrer">Paper ↗</a></div></div></article>
+      <article class="publication"><div class="pub-year">2022</div><div class="pub-body"><h3>Design for a Dual-Redundant Flight Control Computer Using a Model Predictive Voting Algorithm</h3><p>Dongwoo Lee, <strong>Kwangwoo Jang</strong>, Hohyeong Lee, Hyochoong Bang</p><p class="venue">Robot Intelligence Technology and Applications 6 · RiTA 2021 · LNNS 429, 3–11</p><div class="pub-links"><a href="https://doi.org/10.1007/978-3-030-97672-9_1" target="_blank" rel="noreferrer">Paper ↗</a></div></div></article>
     </div>
   </section>
 
   <section id="awards" class="section">
-    <div class="section-heading"><p class="kicker">AWARDS & RECOGNITION</p><h2>수상 및 장학</h2></div>
+    <div class="section-heading"><p class="kicker">AWARDS & RECOGNITION</p><h2>수상</h2></div>
     <div class="award-list">
       <div class="award-card"><div class="award-date">2023.12</div><div><h3>국방과학연구소 공로상</h3><p>고신뢰성 다목적 호버바이크 연구개발과 시제기 통합·실증 기여.</p></div></div>
-      <div class="award-card"><div class="award-date">2022</div><div><h3>KAIST 인성장학생</h3><p>모범적인 학업 및 연구활동을 바탕으로 인성장학생 선정.</p></div></div>
     </div>
   </section>
 
@@ -171,12 +192,18 @@
     </div>
 
     <article class="project-card featured">
-      <div class="project-image"><img src="assets/img/hoverbike.svg" alt="호버바이크 프로젝트 이미지" /></div>
+      <div class="project-image hoverbike-gallery">
+        <img class="hoverbike-main" src="assets/img/hoverbike-prototype.png" alt="하이브리드 엔진 기반 고신뢰성 다목적 호버바이크 시제기" />
+        <div class="hoverbike-support">
+          <img src="assets/img/hoverbike-acceleration-test.png" alt="호버바이크 가속 비행시험" />
+          <img src="assets/img/hoverbike-auto-landing.png" alt="영상 기반 자동착륙 시험 결과" />
+        </div>
+      </div>
       <div class="project-copy">
         <div class="project-meta"><span>2019–2024</span><span>국방과학연구소 (ADD)</span></div>
         <h3>고신뢰성 다목적 호버바이크 개발</h3>
         <p class="project-role">Project POC · System Integration · Flight Test</p>
-        <p>하이브리드 엔진 기반 유·무인 복합 비행 플랫폼 개발에서 8개 연구실의 협업과 시스템 통합을 총괄했습니다. 시제기 제작·납품, 통합 소프트웨어, 비행제어, 3중화 컴퓨터, 고장대응, 장애물 회피 및 자동착륙 기능을 실제 비행시험으로 검증했습니다.</p>
+        <p>하이브리드 엔진·배터리 복합추진 기반 유·무인 비행 플랫폼 개발에서 8개 연구실의 협업과 시제기 시스템 통합을 총괄했습니다. 3중화 비행제어 컴퓨터와 다중센서 항법부터 고장대응, 장애물 회피 및 영상 기반 자동착륙까지 실제 비행시험으로 검증했습니다.</p>
         <div class="metrics-grid">
           <div><strong>100 kg</strong><span>Payload</span></div>
           <div><strong>60 min</strong><span>Endurance</span></div>
@@ -185,7 +212,8 @@
         </div>
         <ul class="mini-list">
           <li>8개 연구실 협업 및 시제기 시스템 통합 총괄</li>
-          <li>비행제어 SW, 고장대응 및 자율비행 기능 통합</li>
+          <li>복합추진·3중화 비행제어·무결성 감시 시스템 통합</li>
+          <li>GPS-denied 항법, 장애물 회피 및 정밀 자동착륙 실증</li>
           <li>과제 성능평가 전 항목 충족 및 국방과학연구소 공로상 수상</li>
         </ul>
       </div>
