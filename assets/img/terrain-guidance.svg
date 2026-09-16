@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="560" viewBox="0 0 960 560" role="img" aria-labelledby="title desc">
+  <title id="title">Terrain-following guidance</title><desc id="desc">An aircraft guidance path maintains clearance above a changing terrain profile.</desc>
+  <rect width="960" height="560" rx="24" fill="#edf4f1"/>
+  <path d="M0 444 105 400l82 35 128-162 101 77 139-201 111 173 116-91 178 129v200H0Z" fill="#c9ddd3"/>
+  <path d="M0 388c120-55 211 45 323-117s178-21 243-128 180 138 394 94" fill="none" stroke="#c7dc88" stroke-width="34" opacity=".65"/>
+  <path d="M0 388c120-55 211 45 323-117s178-21 243-128 180 138 394 94" fill="none" stroke="#225d4c" stroke-width="8" stroke-linecap="round"/>
+  <g transform="translate(458 157)" fill="#225d4c"><path d="m0 25 74-25-22 25 34 12-8 12-47-7-24 24-10-4 10-27-28-7 4-9Z"/></g>
+  <path d="M511 244v84" stroke="#225d4c" stroke-width="4" stroke-dasharray="8 8"/><path d="m500 314 11 16 11-16" fill="none" stroke="#225d4c" stroke-width="4"/>
+  <g font-family="Arial, sans-serif"><text x="68" y="55" fill="#225d4c" font-size="20" font-weight="700" letter-spacing="4">TERRAIN FOLLOWING</text><text x="68" y="510" fill="#225d4c" font-size="18" font-weight="700">MPPI guidance command</text></g>
+</svg>
