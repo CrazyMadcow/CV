@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="560" viewBox="0 0 960 560" role="img" aria-labelledby="title desc">
+  <title id="title">Adaptive multirotor control</title><desc id="desc">A multirotor maintains its reference response while payload and fuel uncertainty change.</desc>
+  <rect width="960" height="560" rx="24" fill="#edf4f1"/>
+  <g transform="translate(135 155)" fill="none" stroke="#225d4c" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M0 93h330M63 93l48 72h108l48-72M132 165h66" stroke-width="12"/><circle cx="0" cy="93" r="32" stroke-width="9"/><circle cx="330" cy="93" r="32" stroke-width="9"/><path d="M28 61 83 12M302 61 247 12" stroke-width="7"/><path d="M126 171v63h80v-63" stroke-width="8"/>
+  </g>
+  <g font-family="Arial, sans-serif"><text x="68" y="55" fill="#225d4c" font-size="20" font-weight="700" letter-spacing="4">ADAPTIVE CONTROL</text><text x="228" y="445" fill="#68716c" font-size="17">Fuel + payload uncertainty</text></g>
+  <g transform="translate(560 116)"><rect width="294" height="328" rx="18" fill="#fff" stroke="#cad8d2" stroke-width="3"/><path d="M36 246h220M36 48v198" fill="none" stroke="#9bb8ad" stroke-width="3"/><path d="M37 191c43-118 83 78 125-37s67 57 94-35" fill="none" stroke="#aebbb5" stroke-width="6" stroke-linecap="round"/><path d="M37 190c50-75 83-61 117-50s61-5 102-21" fill="none" stroke="#225d4c" stroke-width="8" stroke-linecap="round"/><path d="M37 119h219" stroke="#c7dc88" stroke-width="5" stroke-dasharray="10 10"/><text x="36" y="288" fill="#225d4c" font-family="Arial, sans-serif" font-size="18" font-weight="700">Reference tracking</text></g>
+</svg>

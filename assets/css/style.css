@@ -97,6 +97,9 @@ img { display: block; max-width: 100%; }
 .timeline-item h3 { margin: 0 0 4px; font-size: .94rem; }
 .timeline-item p { margin: 4px 0; color: var(--muted); font-size: .79rem; word-break: keep-all; }
 .timeline-item .timeline-sub { color: #3e4d57; font-weight: 600; }
+.timeline-item .timeline-thesis { margin: 9px 0 8px; padding: 10px 13px; border-left: 4px solid var(--accent); border-radius: 0 7px 7px 0; background: #f2f7f9; color: var(--accent-deep); line-height: 1.35; }
+.timeline-item .timeline-thesis span { display: block; margin-bottom: 3px; color: var(--accent); font-size: .61rem; font-weight: 850; letter-spacing: .12em; }
+.timeline-item .timeline-thesis strong { display: block; font-size: .84rem; font-weight: 780; }
 
 .featured-publications { display: grid; gap: 14px; }
 .featured-publication { display: grid; grid-template-columns: 270px minmax(0, 1fr); gap: 23px; padding: 22px 20px; border: 1px solid #bfd4df; border-left: 4px solid var(--accent); border-radius: 12px; background: var(--featured); }

@@ -1,0 +1,118 @@
+:root {
+  --ink: #192831;
+  --muted: #526775;
+  --navy: #183e54;
+  --blue: #276682;
+  --pale: #eef5f7;
+  --line: #cfdfe5;
+}
+* { box-sizing: border-box; -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+html { background: #e9eef1; }
+body { margin: 0; color: var(--ink); font: 10.5pt/1.46 "Pretendard", "Noto Sans KR", "Malgun Gothic", "Segoe UI", Arial, sans-serif; }
+h1, h2, h3, p, figure { margin: 0; word-break: keep-all; }
+a { color: inherit; text-decoration: none; }
+.page { position: relative; display: flex; flex-direction: column; width: 210mm; height: 297mm; margin: 10mm auto; padding: 11mm 13mm 10mm; overflow: hidden; background: #fff; box-shadow: 0 7px 30px #2036421e; break-after: page; page-break-after: always; }
+.page > * { flex-shrink: 0; }
+.page:last-child { break-after: auto; page-break-after: auto; }
+.running-head, .page-footer { display: flex; justify-content: space-between; color: #6d828c; font-size: 7.1pt; font-weight: 800; letter-spacing: .055em; }
+.running-head { padding-bottom: 2.5mm; border-bottom: .25mm solid var(--line); }
+.page-footer { margin-top: auto; padding-top: 2.5mm; border-top: .25mm solid var(--line); }
+.eyebrow, .page-title > span { color: var(--blue); font-size: 8pt; font-weight: 900; letter-spacing: .09em; }
+.cover-intro { padding: 7mm 0 4mm; }
+.cover-intro h1 { margin-top: 2mm; font-size: 29pt; line-height: 1.18; letter-spacing: -.05em; }
+.cover-intro h1 em { color: var(--blue); font-style: normal; }
+.cover-lead { margin-top: 3.5mm; color: #435964; font-size: 11pt; line-height: 1.5; }
+.cover-lead strong { color: var(--navy); font-weight: 750; }
+.byline { display: flex; align-items: baseline; gap: 3mm; margin-top: 3mm; color: var(--muted); font-size: 8.5pt; }
+.byline strong { color: var(--navy); font-size: 12pt; }
+.section-heading { display: flex; align-items: baseline; gap: 4mm; margin: 4.2mm 0 2.5mm; padding-bottom: 1.4mm; border-bottom: .25mm solid var(--line); }
+.section-heading > span { flex: none; min-width: 25mm; color: var(--blue); font-size: 8.1pt; font-weight: 900; }
+.section-heading h2 { font-size: 13.5pt; line-height: 1.25; letter-spacing: -.035em; }
+.research-pair { display: grid; grid-template-columns: 1fr 1fr; gap: 5mm; }
+.research-pair article { padding: 3.3mm 3.5mm; border-top: .75mm solid var(--blue); background: #f6f9fa; }
+.research-pair b { display: block; color: var(--blue); font-size: 16pt; line-height: 1; }
+.research-pair h3 { margin-top: 1.8mm; color: var(--navy); font-size: 13pt; line-height: 1.3; letter-spacing: -.025em; }
+.research-pair p { margin-top: 2mm; color: var(--muted); font-size: 10pt; }
+.research-pair strong { display: block; margin-top: 2.2mm; color: var(--blue); font-size: 8pt; }
+.integration-base { margin-top: 4mm; padding: 4mm; border-radius: 1.5mm; background: var(--navy); color: white; }
+.integration-base > div > span { color: #bddae6; font-size: 8pt; font-weight: 800; }
+.integration-base h3 { margin-top: .7mm; font-size: 13.3pt; }
+.integration-base p { margin-top: 1mm; color: #e0edf2; font-size: 10pt; }
+.validation-path { display: flex; justify-content: space-between; align-items: center; gap: 2mm; margin-top: 2.8mm; padding-top: 2.4mm; border-top: .25mm solid #496b7d; }
+.validation-path span { color: #fff !important; font-size: 9.1pt !important; font-weight: 700; }
+.validation-path i { color: #a6c8d6; font-style: normal; }
+.evidence-heading { margin-top: 4mm; }
+.evidence-layout { display: grid; grid-template-columns: 1.35fr .85fr; gap: 5mm; }
+.evidence-copy p { padding: 1.8mm 0; border-bottom: .25mm solid var(--line); color: var(--muted); font-size: 9.6pt; }
+.evidence-copy p:first-child { padding-top: 0; }
+.evidence-copy strong { display: block; margin-bottom: .4mm; color: var(--navy); font-size: 10pt; }
+.evidence-photo { display: flex; flex-direction: column; align-self: stretch; border: .25mm solid var(--line); border-radius: 1.5mm; overflow: hidden; background: #f6f9fa; }
+.evidence-photo img { display: block; width: 100%; height: 48mm; object-fit: contain; }
+.evidence-photo figcaption { margin-top: auto; padding: 1.7mm; color: var(--muted); font-size: 7.1pt; text-align: center; }
+.page-title { margin: 7mm 0 4mm; }
+.page-title h2 { margin-top: 1.5mm; font-size: 24pt; line-height: 1.2; letter-spacing: -.05em; }
+.page-title > p { margin-top: 2mm; color: var(--muted); font-size: 10.2pt; }
+.problem-line, .basis-line { display: grid; grid-template-columns: 27mm 1fr; gap: 3mm; }
+.problem-line { padding: 3.3mm 3mm; border-top: .65mm solid var(--navy); background: var(--pale); }
+.problem-line strong { color: var(--navy); font-size: 10.3pt; }
+.problem-line p { color: #425c69; font-size: 10.5pt; }
+.basis-line { padding: 3mm; border-bottom: .25mm solid var(--line); }
+.basis-line strong { color: var(--blue); font-size: 9.4pt; }
+.basis-line p { color: var(--muted); font-size: 9.8pt; }
+.basis-line b { color: #3b5969; font-weight: 750; }
+.technical-steps article { display: grid; grid-template-columns: 11mm 1fr; gap: 3mm; padding: 3mm 1mm; border-bottom: .25mm solid var(--line); }
+.technical-steps article > b { color: var(--blue); font-size: 16pt; line-height: 1.1; }
+.technical-steps h3 { color: var(--navy); font-size: 12.3pt; line-height: 1.2; }
+.technical-steps p { margin-top: 1.2mm; color: var(--muted); font-size: 10.3pt; }
+.cooperation-pair { display: grid; grid-template-columns: 1fr 1fr; gap: 5mm; }
+.cooperation-pair > div { padding-top: 2mm; border-top: .4mm solid var(--line); }
+.cooperation-pair strong { color: var(--navy); font-size: 10.6pt; }
+.cooperation-pair p { margin-top: 1.2mm; color: var(--muted); font-size: 10pt; }
+.evaluation-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 3mm; }
+.evaluation-grid > div { padding: 2.5mm 3mm; background: #f1f6f8; border-radius: 1mm; }
+.evaluation-grid strong { color: var(--navy); font-size: 10.2pt; }
+.evaluation-grid p { margin-top: 1mm; color: var(--muted); font-size: 9.1pt; }
+.research-output { margin-top: 4mm; padding: 3.5mm 4mm; border-radius: 1.5mm; background: var(--navy); color: #fff; }
+.research-output > span { display: block; color: #bed9e5; font-size: 8pt; font-weight: 800; }
+.research-output > strong { display: block; margin-top: 1mm; font-size: 12pt; }
+.research-output p { margin-top: 1mm; color: #dcebf1; font-size: 9.3pt; }
+.method-chain { display: grid; grid-template-columns: 1fr 5mm 1fr 5mm 1fr; gap: 2mm; align-items: stretch; }
+.method-chain > div { padding: 3mm 2mm; border: .3mm solid #bad2de; border-radius: 1.3mm; background: #f5f9fa; text-align: center; }
+.method-chain small { display: block; color: var(--blue); font-size: 7.6pt; font-weight: 800; }
+.method-chain strong { display: block; margin: 1.3mm 0; color: var(--navy); font-size: 11.3pt; }
+.method-chain p { color: var(--muted); font-size: 9.2pt; }
+.method-chain i { align-self: center; color: #799caa; font-size: 16pt; font-style: normal; text-align: center; }
+.method-explanation { margin-top: 2.3mm; color: var(--muted); font-size: 10pt; }
+.autonomy-evaluation { margin-top: 3.5mm; }
+.future-note { margin-top: 3.5mm; padding-top: 2.5mm; border-top: .3mm solid var(--line); }
+.future-note strong { color: var(--navy); font-size: 10.8pt; }
+.future-note p { margin-top: 1mm; color: var(--muted); font-size: 9.7pt; }
+.execution-page .page-title { margin-bottom: 2.5mm; }
+.execution-page .section-heading { margin-top: 3.5mm; }
+table { width: 100%; border-collapse: collapse; table-layout: fixed; word-break: keep-all; }
+th, td { text-align: left; vertical-align: top; border-bottom: .25mm solid var(--line); }
+thead th { padding: 2mm 2.5mm; border-top: .65mm solid var(--navy); background: var(--pale); color: var(--navy); font-size: 9.1pt; font-weight: 800; }
+.experience-table th:first-child { width: 48%; }
+.experience-table tbody th { padding: 2.3mm 2.5mm; color: var(--navy); font-size: 9.6pt; font-weight: 750; line-height: 1.36; }
+.experience-table th span { display: block; margin-top: .9mm; color: var(--muted); font-size: 8.6pt; font-weight: 400; line-height: 1.35; }
+.experience-table td { padding: 2.3mm 2.5mm; color: var(--muted); font-size: 9.5pt; line-height: 1.4; }
+.planning-note { margin-top: 2.8mm; color: var(--muted); font-size: 9.6pt; line-height: 1.4; }
+.execution-table th:first-child { width: 17mm; }
+.execution-table th:nth-child(2) { width: 83mm; }
+.execution-table tbody th { padding: 2.5mm 1.5mm; color: var(--navy); font-size: 9.5pt; white-space: nowrap; }
+.execution-table td { padding: 2.5mm; color: var(--muted); font-size: 9.5pt; line-height: 1.4; }
+.execution-table td strong { color: var(--navy); font-size: 9.7pt; }
+.student-research { display: grid; grid-template-columns: 29mm 1fr; gap: 3mm; margin-top: 3mm; padding-top: 2.5mm; border-top: .3mm solid var(--line); }
+.student-research strong { color: var(--navy); font-size: 10pt; }
+.student-research p { color: var(--muted); font-size: 9.6pt; line-height: 1.55; }
+.student-research b { display: inline-block; min-width: 13mm; color: var(--blue); }
+.closing { margin-top: 3mm; padding: 3mm 4mm; border-radius: 1.5mm; background: var(--navy); color: #fff; text-align: center; }
+.closing strong { font-size: 12.3pt; }
+.closing p { margin-top: .8mm; color: #dcebf1; font-size: 9.6pt; }
+.operations-note { margin-top: 2.8mm; color: #677c88; font-size: 8.3pt; line-height: 1.4; }
+#page-2 .page-title { margin-top: 6mm; }
+#page-2 .section-heading { margin-top: 3mm; }
+#page-2 .technical-steps article { padding-top: 2mm; padding-bottom: 2mm; }
+#page-2 .research-output { margin-top: 2.5mm; padding-top: 3mm; padding-bottom: 3mm; }
+@page { size: A4; margin: 0; }
+@media print { html { background: #fff; } .page { margin: 0; box-shadow: none; } }
