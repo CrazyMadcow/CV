@@ -3,134 +3,182 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="장광우 한국항공대학교 교수지원 산학협력계획서">
+  <meta name="description" content="장광우 한국항공대학교 교수지원 산학협력계획서 · 연구역량, 핵심 연구 및 산학연 공동연구·연구비 확보계획">
   <title>장광우 · 한국항공대학교 산학협력계획서</title>
   <link rel="stylesheet" href="kau-collaboration.css">
 </head>
 <body>
-  <section class="page page-cover" id="page-1">
+  <section class="page cover-page" id="page-1">
     <header class="running-head"><span>한국항공대학교 교수지원</span><span>산학협력계획서 · 장광우</span></header>
-    <div class="cover-intro">
-      <p class="eyebrow">제어·자율비행 연구의 산학연 공동개발</p>
-      <h1>제어·자율비행 연구를<br><em>실제 항공시스템으로</em></h1>
-      <p class="cover-lead">기체와 환경의 불확실성을 고려하는 제어·자율비행 기술을 실제 항공시스템에서 발전시키겠습니다. <strong>기체 특성의 온라인 추정·유도제어</strong>와 <strong>환경인지·안전 제약을 결합한 자율비행</strong>을 공동개발하고, 기체·항전·온보드 소프트웨어의 통합과 비행검증으로 연결하겠습니다.</p>
-      <p class="byline"><strong>장광우</strong><span>Kwangwoo Jang, Ph.D. · 한국전자통신연구원(ETRI)</span></p>
+    <div class="page-title">
+      <p class="eyebrow">RESEARCH CAPABILITY · 연구목표와 산학협력 추진역량</p>
+      <h1>비행제어 이론에서<br><em>실제 항공시스템까지</em></h1>
+      <p class="subtitle">불확실한 기체와 환경에서도 신뢰할 수 있는 비행을 구현하는 연구</p>
+    </div>
+    <p class="intro">저는 <strong>모델과 실제 비행 사이의 차이를 분석하고, 그 해결책을 실제 항공시스템에 구현하는 연구</strong>를 수행해 왔습니다. 비행체 동역학·제어에서 온라인 추정·최적유도와 온보드 지능으로 확장한 경험을 바탕으로, 항공대에 불확실성의 이해–안전한 계획·제어–통합·검증을 연결하는 연구기반을 구축하겠습니다.</p>
+    <p class="byline"><strong>장광우</strong><span>Kwangwoo Jang, Ph.D. · 한국전자통신연구원(ETRI)</span></p>
+
+    <div class="capability-list">
+      <article>
+        <b class="number">01</b>
+        <div><span class="affiliation">KAIST · 비선형 비행제어와 온라인 추정·최적유도</span><h2>자체 연구기법을 제안하고 실시간·실비행으로 검증</h2>
+        <p>틸트로터의 공력 변화에 대응하는 RBF-NN 적응제어·온보드 HILS와 멀티로터의 구동 지연 보상기법을 연구했습니다. <strong>MTS-MPPI</strong>를 통해 다중 경로 탐색을, <strong>PIPE</strong>를 통해 미지 파라미터의 온라인 추정을 제안했습니다. PIPE–MPPI의 조종사 특성 추정·적응적 지형추종은 조종사 참여 HILS로 검증했습니다.</p></div>
+      </article>
+      <article>
+        <b class="number">02</b>
+        <div><span class="affiliation">KAIST · ADD 지원 Hoverbike 개발</span><h2>알고리즘부터 대형 기체의 통합·시험까지 수행</h2>
+        <p>고신뢰성 다목적 Hoverbike의 <strong>Project POC</strong>로 연구실·참여기업 간 기술 조율, 비행제어기 설계·구현과 항전 통합·시험을 담당했습니다. 하이브리드 추진, 다중화 비행컴퓨터와 센서를 연결하며 전원·통신·연산·추진계의 상호작용을 다룬 경험을 축적했습니다.</p></div>
+      </article>
+      <article>
+        <b class="number">03</b>
+        <div><span class="affiliation">ETRI · 온보드 자율비행과 공공임무 연구</span><h2>현장 문제를 핵심기술과 후속 공동연구로 연결</h2>
+        <p>산불 대응 무인기의 실시간 온보드 인지, 영상·메타데이터 연동과 지형 기반 자동착륙 유도를 연구하고 있습니다. 산림청 관련 수행·기획 및 항공 AI 기술위원 경험을 활용하여 현장 요구를 연구문제로 구체화하고, 제어·자율비행 기술을 공동개발과 학생 연구로 발전시키겠습니다.</p></div>
+      </article>
     </div>
 
-    <div class="section-heading"><span>두 공동개발 주제</span><h2>기체의 변화에 대응하고, 환경에 맞춰 비행</h2></div>
-    <div class="research-pair">
-      <article><b>01</b><h3>기체·공력 변화에 대응하는<br>추정·유도제어</h3><p>기체 특성과 추정 불확실성을 온라인으로 파악해 제어·경로계획에 반영합니다.</p><strong>PIPE · Adaptive / Robust Control · MPPI</strong></article>
-      <article><b>02</b><h3>환경인지와 안전 제약을<br>결합한 자율비행</h3><p>불완전한 지형·장애물 정보에서도 실행 가능한 경로와 회피·착륙 행동을 생성합니다.</p><strong>Vision / Depth · Flow Matching · HJ Safety</strong></article>
+    <div class="section-heading"><span>기존 연구의 검증 기반</span><h2>비행제어의 구현과 사람 참여 실시간 검증</h2></div>
+    <div class="validation-figures">
+      <figure><div class="image-stage"><img src="../assets/img/interview-delay-flight.png" alt="면접발표자료에서 발췌한 멀티로터 비행 장면과 시간지연 보상 제어기의 응답 비교"></div><figcaption><b>멀티로터 실비행</b> · 비선형 제어의 시간지연 보상 및 응답 비교</figcaption></figure>
+      <figure><div class="image-stage hils-stage"><img src="../assets/img/interview-pipe-hils.png" alt="PIPE–MPPI 제어 연산 컴퓨터, 조종사 인터페이스 컴퓨터와 조종간으로 구성된 HILS"><p>온라인 추정 · 적응적 유도 · 조종사 응답</p></div><figcaption><b>PIPE–MPPI HILS</b> · 조종사 참여 지형추종 유도 검증</figcaption></figure>
     </div>
-
-    <div class="integration-base">
-      <div><span>공통 통합 기반</span><h3>기체·항전·제어·AI를 함께 설계하고 연결</h3><p>모듈형 FC/AI 플랫폼, 센서·제어 인터페이스와 공통 SW를 구축하여 두 연구의 실시간 구현과 반복 시험을 지원합니다.</p></div>
-      <div class="validation-path"><span>시뮬레이션</span><i>→</i><span>온보드 HILS</span><i>→</i><span>단일 기체 비행시험</span><i>→</i><span>임무 실증</span></div>
-    </div>
-
-    <div class="section-heading evidence-heading"><span>실행 기반</span><h2>개발·연구·현장 기획에서 확보한 협력 경험</h2></div>
-    <div class="evidence-layout">
-      <div class="evidence-copy">
-        <p><strong>Hoverbike 개발·기업 접점</strong> 기술 창구, 비행제어기 설계·구현, 항전 통합과 시험 경험을 기업 기체의 공동개발에 활용합니다.</p>
-        <p><strong>ETRI 온보드 자율비행 연구</strong> 기체 수준의 인지·계획·제어를 공간정보·군집·네트워크 공동연구로 연결합니다.</p>
-        <p><strong>공공 R&amp;D 기획 경험</strong> 산림청 관련 세 기획과 우주항공청 기술위원·과제카드 작성 경험을 연구문제와 검증조건 도출에 활용합니다.</p>
-      </div>
-      <figure class="evidence-photo"><img src="../assets/img/hoverbike-prototype.png" alt="Hoverbike 시제기"><figcaption>Hoverbike 시제기 · 기체·항전·제어 통합 경험</figcaption></figure>
-    </div>
-    <footer class="page-footer"><span>두 공동개발 연구 · 공통 시스템 통합 기반</span><span>01 / 04</span></footer>
+    <p class="source-note">그림 1. 본인 면접발표자료 PDF 6·14쪽의 검증 장면·구성을 발췌. 향후 기체 불확실성 정량화·안전계층 통합과 구분한 기존 연구성과입니다.</p>
+    <footer class="page-footer"><span>연구기여 · 시스템 수행역량 · 현장 수요를 연결하는 산학연 기반</span><span>01 / 05</span></footer>
   </section>
 
   <section class="page research-page" id="page-2">
     <header class="running-head"><span>한국항공대학교 교수지원</span><span>산학협력계획서 · 장광우</span></header>
-    <div class="page-title"><span>JOINT DEVELOPMENT 01 · ESTIMATION &amp; CONTROL</span><h2>기체·공력 변화에 대응하는<br>추정·유도제어 공동개발</h2><p>기체 특성의 추정과 제어를 연결해 탑재·운용조건 변화에 대응합니다.</p></div>
-
-    <div class="problem-line"><strong>공동 연구문제</strong><p>기체 구성·탑재중량·공력 특성·추진 응답이 달라지면 모델과 실제 기체 사이에 차이가 생깁니다. 비행 중 이 변화를 추정하고, 추정 오차까지 고려해 유도·제어 성능을 유지하는 기술을 개발합니다.</p></div>
-    <div class="basis-line"><strong>확보한 연구 기반</strong><p>시간지연 보상기법의 멀티로터 실비행 검증, PIPE–MPPI 기반 <b>조종사 특성 추정·지형추종 HILS</b>, 틸트형 VTOL의 비선형 모델링·적응제어 연구.</p></div>
-
-    <div class="section-heading"><span>핵심기술 개발</span><h2>온라인 추정 → 불확실성 반영 → 운용범위 확장</h2></div>
-    <div class="technical-steps">
-      <article><b>01</b><div><h3>기체·공력 특성의 온라인 추정</h3><p>PIPE의 추정 대상을 조종사 모델에서 기체·공력 특성으로 확장합니다. 비행데이터로 파라미터와 추정 불확실성을 함께 산출하고, 탑재조건 변화에 따른 모델 차이를 파악합니다.</p></div></article>
-      <article><b>02</b><div><h3>추정 불확실성을 반영하는 유도·제어</h3><p>추정값과 불확실성을 적응·강건제어 및 MPPI의 비용함수·제약조건에 반영합니다. 추종 성능, 제어입력 한계와 온보드 계산시간을 함께 평가합니다.</p></div></article>
-      <article><b>03</b><div><h3>틸트로터 천이비행으로 적용 확대</h3><p>틸트각과 비행속도에 따라 공력·추진 특성이 변하는 천이구간을 확장 대상으로 설정합니다. 기존 비선형 시뮬레이터와 적응제어 연구를 활용해 조건별 성능을 비교합니다.</p></div></article>
+    <div class="page-title">
+      <p class="eyebrow">CORE RESEARCH · 산학연 공동개발의 핵심기술</p>
+      <h2>불확실성을 이해하고, 안전하게 계획하며<br>실제 비행으로 검증</h2>
+      <p class="subtitle">세 가지 중점 연구를 공통 항공시스템과 실환경 데이터로 연결합니다.</p>
     </div>
 
-    <div class="section-heading"><span>기업 공동개발</span><h2>Hoverbike 개발 접점에서 실제 기체 문제를 도출</h2></div>
-    <div class="cooperation-pair">
-      <div><strong>기존 경험과 적용 대상</strong><p>기업과 기술 요구를 조율하고 기체·항전·제어를 통합한 경험을 활용합니다. 초기에는 대표 기체와 탑재변화 조건을 정해 적용 가능한 연구범위를 협의합니다.</p></div>
-      <div><strong>함께 수행할 개발</strong><p>기업과 기체 모델·인터페이스·시험조건을 정의하고, 항공대는 추정·제어 알고리즘과 탑재 SW를 개발합니다. 같은 조건에서 기준 제어기와 성능을 비교합니다.</p></div>
+    <div class="research-list">
+      <article>
+        <div class="research-heading"><b class="number">01</b><div><small>ROBUST &amp; UNCERTAINTY-AWARE GNC</small><h3>기체·환경의 불확실성을 반영하는 유도·제어</h3></div></div>
+        <p>기존 PIPE를 기체·공력 특성 추정으로 확장하고 <strong>추정값과 함께 불확실성을 정량화</strong>하여 강건·적응제어와 MPPI에 반영하겠습니다. 틸트로터 천이비행의 공력·추진 변화와 다른 탑재조건을 대상으로, 추정의 신뢰도까지 고려하는 비행명령 생성을 연구합니다. 공통 제어구조와 기체별 모델·제어할당을 구분하여 다기종 적용성을 평가하겠습니다.</p>
+        <div class="research-test"><b>평가</b> 추정·추종 오차 / 조건 변화 후 성능 회복 / 제어입력·연산시간 한계</div>
+      </article>
+      <article>
+        <div class="research-heading"><b class="number">02</b><div><small>SAFETY-AWARE AUTONOMOUS FLIGHT</small><h3>환경인지와 해석적 안전성을 결합하는 자율비행</h3></div></div>
+        <p>MTS-MPPI·지형 기반 유도 연구를 바탕으로 Vision·Depth의 안전 관련 환경표현을 Flow Matching/TAFM 유도정책에 연결하고, <strong>HJ 도달가능성 기반 안전계층</strong>으로 후보 행동을 평가·보정하겠습니다. 기체 동역학·입력 한계와 인지오차·정보지연 범위를 명시하여 안전 제약의 만족과 적용 한계를 검증하고 관측·복귀·착륙으로 확장합니다.</p>
+        <div class="research-test"><b>평가</b> 회피·착륙 성능 / 정의한 오차범위에서 제약 만족 / 정보 갱신·임무시간</div>
+      </article>
+      <article>
+        <div class="research-heading"><b class="number">03</b><div><small>MODULAR SYSTEMS &amp; TRANSFER VALIDATION</small><h3>모듈형 항공시스템과 기체·환경 간 전이·검증</h3></div></div>
+        <p>공통 비행제어 SW와 센서·항법·임무컴퓨터 인터페이스를 갖춘 <strong>모듈형 UAV/eVTOL 연구플랫폼</strong>을 구축하겠습니다. 동일 SW·항전구조로 시뮬레이션–온보드 HILS–실비행을 연결하고, 기체 규모·형상·탑재·환경 차이에 필요한 추정·적응·추가 검증방법을 연구합니다. 실기체에서 발견한 모델 차이와 구현 제약을 앞의 두 연구에 반영하겠습니다.</p>
+        <div class="research-test"><b>평가</b> 공통 SW 재사용 / 기체별 재조정 범위 / 시험환경–실비행 성능 차이</div>
+      </article>
     </div>
 
-    <div class="section-heading"><span>평가할 성능</span><h2>변화에 대한 추정·추종·구현 성능을 함께 확인</h2></div>
-    <div class="evaluation-grid">
-      <div><strong>추정 성능</strong><p>파라미터 추정 오차<br>조건 변화 후 추정 응답</p></div>
-      <div><strong>유도·제어 성능</strong><p>경로·자세 추종 오차<br>제어입력 한계와 회복 특성</p></div>
-      <div><strong>온보드 구현</strong><p>연산시간·제어주기<br>조건별 비행로그 비교</p></div>
-    </div>
-    <div class="research-output"><span>공동 산출물</span><strong>추정·제어 SW · 기체 시험모델 · 조건별 검증데이터 · 논문</strong><p>초기 기체의 검증 결과를 다른 탑재조건과 틸트로터 공동연구 제안의 근거로 활용합니다.</p></div>
-    <footer class="page-footer"><span>기체·공력 추정 · 불확실성 대응 유도제어 · 실기체 적용</span><span>02 / 04</span></footer>
+    <figure class="research-cycle">
+      <div class="cycle-nodes"><div><b>불확실성 추정</b><span>기체·공력·환경 / PIPE</span></div><i>→</i><div><b>안전한 계획·제어</b><span>강건·적응 / MPPI / HJ</span></div><i>→</i><div><b>통합·검증 플랫폼</b><span>공통 FC / HILS / 실비행</span></div></div>
+      <div class="feedback-line">↶ 실제 비행데이터·모델 차이·구현 제약을 추정과 유도·제어 연구로 환류</div>
+      <figcaption>그림 2. 향후 연구구상 · 면접발표자료 19·33–35쪽을 바탕으로 재구성</figcaption>
+    </figure>
+    <div class="research-links"><span><b>ETRI</b> 기체 예측·제어 + 공간정보·협력운용</span><span><b>산림청</b> 환경 적응 + 관측·복귀·임무유도</span><span><b>항공 AI</b> 학습 기반 설계 + 안전성 검증</span><span><b>ADD</b> 대형·하이브리드 제어 + 시스템 통합</span></div>
+    <p class="future-note"><strong>중장기 확장</strong> 기체·환경·임무데이터로 후보 행동의 미래 비행·관측 결과를 예측하는 <b>임무 특화 World Model</b>을 연구하고, 기체 간 전이와 정보수집 경로계획에 활용하겠습니다.</p>
+    <footer class="page-footer"><span>불확실성 정량화 · 학습과 안전계층 · 모듈형 시스템과 도메인 전이</span><span>02 / 05</span></footer>
   </section>
 
-  <section class="page research-page" id="page-3">
+  <section class="page etri-page" id="page-3">
     <header class="running-head"><span>한국항공대학교 교수지원</span><span>산학협력계획서 · 장광우</span></header>
-    <div class="page-title"><span>JOINT DEVELOPMENT 02 · SAFE AUTONOMY</span><h2>환경인지와 안전 제약을 결합한<br>자율비행 공동개발</h2><p>불완전한 환경정보를 실행 가능한 경로와 안전한 비행행동으로 바꿉니다.</p></div>
+    <div class="page-title"><p class="eyebrow collaboration-heading"><span>COLLABORATION 01</span><strong>ETRI 전략 공동연구</strong></p><h2>전략과제 공동기획을<br>항공대의 핵심 비행기술 연구로</h2><p class="subtitle">ETRI·항공대·기체 및 항전 기업의 역할을 연결하는 공동연구를 제안합니다.</p></div>
+    <p class="intro">ETRI에서 온보드 인지·자율비행을 연구하며 군집비행·공간정보 후속 전략과제를 함께 논의하고 있습니다. <strong>기체 제어·자율비행 수요</strong>에 대응해 항공대의 추정·유도·제어와 실기체 검증 과업을 기획 단계부터 제안하겠습니다.</p>
 
-    <div class="problem-line"><strong>공동 연구문제</strong><p>지형·장애물 정보가 불완전하고 센서·통신 조건이 달라지는 상황에서도, 기체의 동역학과 안전 제약을 고려해 경로·회피·착륙 행동을 생성합니다.</p></div>
-    <div class="basis-line"><strong>확보한 연구 기반</strong><p>온보드 인지·항전 통합, Depth Camera–MPPI 경로계획 연구와 ETRI의 지형 위험도 기반 <b>자동착륙 시뮬레이션</b>. 생성형 정책과 HJ 안전계층의 통합은 향후 공동개발 주제입니다.</p></div>
+    <figure class="partnership-diagram">
+      <div class="partner-side"><small>ETRI</small><h3>공간정보·군집·네트워크</h3><p>공유 지도·관측목표<br>정보 갱신·임무 배분<br>협력운용 시나리오</p></div>
+      <span class="partner-arrow">⇄</span>
+      <div class="partner-core"><small>한국항공대학교</small><h3>기체 예측 · 안전 유도 · 비행제어</h3><p>① 기체·환경 변화 추정·강건적응제어<br>② 관측 품질·안전 제약 기반 경로계획<br>③ 온보드 구현·실기체 통합검증</p></div>
+      <span class="partner-arrow">⇄</span>
+      <div class="partner-side"><small>기체·항전 기업</small><h3>기체 적용·검증환경</h3><p>기체·임무시스템 적용<br>디지털 트윈·시뮬레이터<br>인터페이스·시험조건</p></div>
+      <figcaption>그림 3. 전략과제 공동제안 구조 · 참여와 역할을 협의할 구상이며 확정된 사업구조가 아닙니다.</figcaption>
+    </figure>
 
-    <div class="section-heading"><span>핵심기술 개발</span><h2>환경표현·생성형 유도·모델 기반 안전계층의 결합</h2></div>
-    <div class="method-chain" aria-label="향후 자율비행 공동개발 기술 흐름">
-      <div><small>PERCEPTION</small><strong>공통 환경표현</strong><p>Vision / Depth<br>지형·장애물·인지 불확실성</p></div><i>→</i>
-      <div><small>GUIDANCE</small><strong>후보 경로·행동 생성</strong><p>Flow Matching / TAFM<br>Depth–MPPI와 비교·연계</p></div><i>→</i>
-      <div><small>SAFETY &amp; CONTROL</small><strong>안전 제약 평가·보정</strong><p>HJ 안전계층<br>기체가 실행할 제어명령</p></div>
+    <div class="planning-metrics">
+      <div class="institution-budget"><small>기관 전체 연간 전략사업 직접비 규모</small><strong>약 600<span>억 원 / 연</span></strong></div>
+      <div><small>소속 부서 전략과제 구상</small><strong>2027<span>기획 예정</span></strong></div>
+      <div><small>선정·예산 배정에 따른 추진</small><strong>2028<span>착수 예정</span></strong></div>
     </div>
-    <p class="method-explanation">인지 결과를 공통 safety-aware feature로 표현해 유도정책에 연결하고, HJ 도달가능성 기반 안전계층으로 후보 행동을 평가·보정합니다. 설정한 동역학·오차범위에서 제약 만족을 검증하며 센서 불확실성과 동적 장애물로 적용 조건을 넓힙니다.</p>
+    <p class="source-note budget-note">600억 원은 기관 전체의 연간 전략사업 직접비 규모로, 단일 전략과제 예산이나 항공대 수주액이 아닙니다. 규모·일정은 현재 기획 논의 기준이며, 부서 기획안의 선정 후 과제예산과 대학 참여범위를 협의합니다.</p>
 
-    <div class="section-heading"><span>협력과 적용</span><h2>ETRI의 공유정보와 현장 임무를 기술검증에 연결</h2></div>
-    <div class="cooperation-pair">
-      <div><strong>ETRI 공동연구</strong><p>공간정보·군집·네트워크 연구와 기체 수준의 예측·계획·제어를 연결합니다. 도착시간·관측 가능성·대안 경로를 제공하고 정보 지연 조건의 성능을 공동평가합니다.</p></div>
-      <div><strong>공공임무 적용</strong><p>산불 관측·헬기 지원을 검증 사례로 활용합니다. 현장수요·규제샌드박스 기획 경험에서 관측 범위, 정보 갱신, 통신과 실증 조건을 도출합니다.</p></div>
+    <div class="section-heading"><span>항공대 세부 연구</span><h2>핵심 알고리즘부터 기체 수준의 공동검증까지</h2></div>
+    <div class="compact-rows">
+      <div><b>추정·제어</b><p>기체 동역학·탑재조건·구동 응답·외란을 추정하고 강건·적응제어 및 불확실성 반영 MPPI로 비행 성능을 유지합니다.</p></div>
+      <div><b>임무 자율비행</b><p>공유 지도와 관측목표를 실행 가능한 경로로 변환하고, 도착시간·관측 가능성·안전한 대안을 상위 임무계획에 제공합니다.</p></div>
+      <div><b>실기체 검증</b><p>온보드 SW와 정보·네트워크 인터페이스를 연동하고, 관측 품질·정보지연·비행 성능을 같은 시나리오에서 공동평가합니다.</p></div>
     </div>
 
-    <div class="evaluation-grid autonomy-evaluation">
-      <div><strong>경로·회피·착륙</strong><p>경로추종·장애물 회피<br>착륙구역 선정·착륙 정확도</p></div>
-      <div><strong>불확실성과 안전</strong><p>인지오차·정보 지연 조건<br>안전 제약 만족 여부</p></div>
-      <div><strong>탑재·임무 성능</strong><p>온보드 계산시간<br>관측 품질과 임무 수행</p></div>
+    <div class="section-heading"><span>연구비 확보 실행</span><h2>기관 사업규모와 항공대의 확보예산을 구분</h2></div>
+    <div class="funding-path">
+      <article><small>2027 · 기획</small><h3>책임 과업·예산안</h3><p>세부 목표·인터페이스·산출물과 학생 인력·장비·시험비를 포함한 제안서 구성</p></article>
+      <article><small>선정·착수 단계</small><h3>참여 방식·연구비 협의</h3><p>사업 수행체계에 맞는 공동·위탁연구 형태와 항공대 배정 연구비 협의</p></article>
+      <article><small>수행·확장</small><h3>검증성과의 후속 활용</h3><p>기체 탑재 SW·논문·학위연구를 축적하고 기업 적용·후속 전략연구 확대</p></article>
     </div>
-    <div class="future-note"><strong>중장기 확장 · 행동의 미래 결과를 예측하는 모델</strong><p>기체·환경 모델과 비행데이터로 후보 행동의 미래 비행·관측 결과를 예측하고, 경로계획과 안전한 행동 선택에 활용하는 임무 특화 world model로 발전시킵니다.</p></div>
-    <div class="research-output"><span>공동 산출물</span><strong>온보드 자율비행 SW · 조건별 검증데이터 · 논문·학생 연구</strong><p>검증된 기술과 임무 요구를 근거로 ETRI 전략연구 및 공공임무 실증 공동과제를 발전시킵니다.</p></div>
-    <footer class="page-footer"><span>환경인지 · 생성형 유도 · 안전계층 · 온보드 자율비행</span><span>03 / 04</span></footer>
+    <p class="future-note"><strong>확장 연구</strong> 기체·환경·임무데이터의 World Model을 기체 간 전이·공간정보 수집으로 발전시킵니다.</p>
+    <p class="source-note"><a href="https://www.etri.re.kr/preview/1791353049774/index.html">기관 방향 참고: ETRI 국가임무 중심 R&amp;D·전략연구기획단 공개자료(2026.10).</a> 부서 기획은 본인의 참여 논의 기준입니다.</p>
+    <footer class="page-footer"><span>기획 참여 → 부서 전략과제 선정·배정 → 항공대 책임 연구와 예산 협의</span><span>03 / 05</span></footer>
   </section>
 
-  <section class="page execution-page" id="page-4">
+  <section class="page forest-page" id="page-4">
     <header class="running-head"><span>한국항공대학교 교수지원</span><span>산학협력계획서 · 장광우</span></header>
-    <div class="page-title"><span>EXECUTION &amp; RESEARCH OUTCOMES</span><h2>공동연구 실행 기반과<br>항공대에 축적할 성과</h2><p>개발한 기술과 비행검증 결과를 논문·학생 연구 및 후속 공동과제로 연결합니다.</p></div>
+    <div class="page-title"><p class="eyebrow collaboration-heading"><span>COLLABORATION 02</span><strong>산림청 수요 기반 R&amp;D</strong></p><h2>산림청 수행·기획 경험을<br>후속 공동연구로 발전</h2><p class="subtitle">스테이션 활용과 헬기 진화 지원을 병행 준비하고, 환경 적응 제어로 연결합니다.</p></div>
 
-    <div class="section-heading"><span>기획 경험의 활용</span><h2>현장·기술 수요를 연구문제와 평가조건으로</h2></div>
-    <table class="experience-table">
-      <thead><tr><th>수행한 기획 경험</th><th>공동연구에 활용할 부분</th></tr></thead>
-      <tbody>
-        <tr><th>산림청 · 산불 헬기 진화 효율 향상 R&amp;D<span>운용·알고리즘 수요 검토 논의 참여</span></th><td>헬기 지원·산불 관측의 운용 요구를 안전 자율비행의 연구문제와 평가조건으로 구체화</td></tr>
-        <tr><th>드론스테이션 기술 연계 신속대응 R&amp;D<span>「범부처 현장수요 신속대응 R&amp;D」 기획 논의 참여</span></th><td>기업의 드론스테이션·운용 기술과 항공대의 자율비행·탑재 기술을 연결할 공동개발안 구성</td></tr>
-        <tr><th>산림청 · 산불 대응 규제샌드박스<span>현장 운용·실증을 위한 기획 논의 참여</span></th><td>운용·실증 조건을 검토하고 연구기술을 평가할 임무 시나리오와 시험계획 구성</td></tr>
-        <tr><th>우주항공청 · 미래항공기 AI 안전성·신뢰성<span>기술분과위원회 설계분과 위원 · 과제카드 작성</span></th><td>제어·자율비행의 성능·안전성 검증을 세부 연구과제로 설계하고 후속 공동제안에 활용</td></tr>
-      </tbody>
-    </table>
-    <p class="planning-note">이 경험을 활용해 비행제어·자율비행 공동과제를 발굴하겠습니다. 초기 알고리즘과 비행검증 결과를 후속 제안의 근거로 삼고, 항공대 책임 연구와 학생 연구를 중심으로 국가 R&amp;D 및 ETRI 전략연구와의 협력을 확대하겠습니다.</p>
+    <div class="collaboration-map" aria-label="협력 제안 대상과 역할">
+      <div><small>공공 수요·실증 협의</small><strong>산림청·산림분야 연구기관</strong><p>임무 요구·운용조건·평가 시나리오</p></div>
+      <div><small>출연연 공동연구 제안</small><strong>ETRI</strong><p>온보드 AI·영상 및 데이터 연동</p></div>
+      <div><small>기업 공동개발 제안</small><strong>스테이션·무인기 기업</strong><p>기체·탑재장비·제품 요구·시험</p></div>
+    </div>
 
-    <div class="section-heading"><span>연차별 실행</span><h2>기술성과와 산학연 과제 추진을 함께 축적</h2></div>
-    <table class="execution-table">
-      <thead><tr><th>시기</th><th>항공대에 축적할 연구·기술 성과</th><th>함께 추진할 산학연 과제</th></tr></thead>
-      <tbody>
-        <tr><th>1년 차</th><td><strong>추정·제어·자율비행 초기 모듈</strong><br>공통 온보드·HILS 환경과 기준 데이터</td><td>기업 기술수요·공공임무 요구 정리, ETRI 공동기획안과 역할·예산안 구성</td></tr>
-        <tr><th>2–3년 차</th><td><strong>기체 탑재 SW · 실비행 검증</strong><br>논문·학생 학위연구와 시험데이터</td><td>예비성과를 근거로 기업 공동개발과 항공대 책임 세부과제 제안·확보</td></tr>
-        <tr><th>4–5년 차</th><td><strong>다른 기체·임무로 적용 확대</strong><br>축적된 데이터와 재사용 가능한 통합 기술</td><td>후속 국가 R&amp;D·ETRI 전략연구, 기업 적용·기술이전 추진</td></tr>
-      </tbody>
-    </table>
+    <figure class="forest-evidence">
+      <div class="forest-evidence-heading"><h3>산림청 과제·규제샌드박스 운용구성</h3><span>기존 과제·기획 자료</span></div>
+      <div class="forest-evidence-images">
+        <img src="../assets/img/forest-project-operation.png" alt="산림청 과제 발표자료의 군집드론 운용구성: 상시 감시·이벤트 인식·드론 출동·영상 송출·진화지휘와 대형드론 소화의 연동">
+        <img src="../assets/img/interview-forest-sandbox.png" alt="면접발표자료에 인용된 규제샌드박스 군집 산불감시·진화 드론 개념도: 감시·탐지·정보전송·출동·진화·복귀">
+      </div>
+      <figcaption>그림 4. 기존 과제 운용구성(산림청 발표 4쪽, 좌) · 규제샌드박스 개념도(면접발표 18쪽 인용, 우).</figcaption>
+    </figure>
 
-    <div class="student-research"><strong>학생 연구·교육</strong><p><b>학부</b> 비행로그 분석·경로계획 시뮬레이션·캡스톤<br><b>대학원</b> 온라인 추정·안전 자율비행·온보드 구현·실비행 학위연구</p></div>
-    <div class="closing"><strong>알고리즘 · 탑재 SW · 비행검증 데이터 · 논문</strong><p>공동개발의 결과를 항공대의 연구와 교육 자산으로 축적하겠습니다.</p></div>
-    <p class="operations-note">공동연구의 기관별 역할·예산, 학생 참여, 데이터·논문 공개와 지식재산 조건을 협의합니다. 기관·기업의 참여 및 연구비는 공동기획과 공모 결과에 따라 확정됩니다.</p>
-    <footer class="page-footer"><span>기술성과 · 학생 연구 · 후속 산학연 공동개발</span><span>04 / 04</span></footer>
+    <div class="application-pair">
+      <article><small>논의된 후속 수요 기반</small><h3>차량형 드론 스테이션<br>관측·안전복귀 자율비행</h3><p>정차한 스테이션과 대표 드론 1종에서 관측 경로계획, 기체 연동과 안전복귀·착륙을 고도화합니다. 기존 기능·개선 수요를 확인하고 개발 항목을 합의합니다.</p><div class="role-line"><b>기업 공동개발</b> 스테이션 측은 규격·전원·통신·운용조건을, 무인기 기업은 기체·탑재장비·제품 요구를 담당하도록 협의합니다.</div><div class="evaluation-line"><b>평가</b> 복귀·착륙 성공률·오차, 운용자 개입, 유효 관측정보 확보시간</div></article>
+      <article><small>2027년 R&amp;D 투자 방향 대응</small><h3>드론 관측정보 기반<br>헬기 임무유도·조종지원</h3><p>관측 위치·갱신 시점과 정보 오차·지연을 반영한 임무유도를 연구합니다. PIPE–MPPI 조종사 모델·HILS 경험을 활용해 조종사 참여 모의검증부터 시작합니다.</p><div class="role-line"><b>신규 협력 제안</b> 운용기관과 평가 임무를 정의하고, 헬기 제작·시뮬레이터 기업에 기체 특성·조종환경을 반영한 공동검증을 제안합니다.</div><div class="evaluation-line"><b>평가</b> 정보 정확도·갱신 지연, 임무시간·경로 성능, 조종 부담</div></article>
+    </div>
+
+    <div class="common-research"><small>항공대 책임 연구 · 두 적용안을 연결할 핵심 기술</small><h3>기체·운용환경 변화에 대응하는 추정·강건적응제어</h3><p>기체·탑재조건, 외란과 관측·통신 변화를 반영해 미검증 조건의 성능 회복·전이 한계를 평가합니다. 현장 데이터를 추정·제어 연구로 발전시키고, 운용범위 이탈 시 복귀·임무변경을 판단합니다.</p></div>
+
+    <div class="funding-steps"><span><b>01</b> 수요·참여기관 협의</span><i>→</i><span><b>02</b> 항공대 책임 과업</span><i>→</i><span><b>03</b> 역할·예산·공동제안</span></div>
+    <p class="body-copy"><strong>과제·연구비 확보.</strong> 헬기 진화 지원·차량형 스테이션·규제샌드박스 기획 경험을 활용해 신규·후속 과제를 제안합니다. 항공대의 알고리즘·탑재·검증 과업에 학생 인건비와 장비·개조·시험비를 편성하겠습니다.</p>
+    <p class="source-note">유무인 운용은 기관이 정한 시간·공간 분리를 전제로 합니다. 실제 동시비행·헬기 탑재는 별도 협의·안전성 검토 후 추진합니다.</p>
+    <p class="source-note"><a href="https://nifos.forest.go.kr/kfsweb/cop/bbs/selectBoardArticle.do?bbsId=BBSMSTR_1036&amp;nttId=3215814&amp;mn=UKFR_03_03_01">정책 근거: 산림청 「역대급 R&amp;D 투자 확대」(2026.01.16)의 2027년 헬기 진화 효율 개선 투자 방향.</a> 특정 신규과제 선정·참여·예산을 의미하지 않습니다.</p>
+    <footer class="page-footer"><span>현재 수행 → 후속 수요·투자 방향 → 환경 적응 연구 → 공동제안</span><span>04 / 05</span></footer>
+  </section>
+
+  <section class="page aviation-page" id="page-5">
+    <header class="running-head"><span>한국항공대학교 교수지원</span><span>산학협력계획서 · 장광우</span></header>
+    <div class="page-title"><p class="eyebrow collaboration-heading"><span>COLLABORATION 03</span><strong>항공 AI · ADD 후속 연구</strong></p><h2>항공 AI와 대형 하이브리드 무인기로<br>공동연구의 적용 범위 확대</h2><p class="subtitle">기술기획 경험과 대형 시스템 수행역량을 각각의 과제 확보 경로로 활용합니다.</p></div>
+
+    <article class="aviation-ai">
+      <div class="section-heading"><span>항공 AI</span><h2>설계분과 경험을 AI 설계·검증 연구로</h2></div>
+      <div class="collaboration-targets"><b>협력 제안</b><span>우주항공청 관련 R&amp;D · 항공기·항전·AI 기업 및 연구기관</span></div>
+      <p class="body-copy">우주항공청의 미래항공기 개발·제조 AI 안전성·신뢰성 탐색연구에서 <strong>기술분과위원회 설계분과 위원</strong>으로 기술수요 검토·과제카드 작성을 수행했습니다. 이를 바탕으로 개발단계별 검증 요구를 반영한 공동제안을 구성하겠습니다.</p>
+      <div class="ai-chain"><span>기체·환경 추정·모델링</span><i>→</i><span>학습 기반 유도·제어 설계</span><i>→</i><span>안전계층·HILS 검증</span></div>
+      <p class="body-copy"><strong>항공대는</strong> PIPE 기반 추정·생성형 유도·안전계층을 연결하고 성능·안전성·적용 한계를 평가합니다. <strong>기업·연구기관과</strong> 탑재 요구·검증 시나리오를 구성하여 관련 공모에 알고리즘·평가기술 과업을 제안하겠습니다.</p>
+      <p class="source-note"><a href="https://ksas.or.kr/Board/board.asp?Action=content&amp;B_CATE=BBS1&amp;GotoPage=1&amp;PAGENUM2=1&amp;b_code=3504">분야 근거: 한국항공우주학회 기술수요조사(2026.01.05).</a> 기술위원 활동은 연구기획 역량의 근거이며 특정 사업의 선정·수주를 보장하지 않습니다.</p>
+    </article>
+
+    <article class="add-research">
+      <div class="section-heading"><span>ADD 후속 연구</span><h2>Hoverbike 경험을 대형 비행·에너지 통합제어로</h2></div>
+      <div class="collaboration-targets"><b>협력 제안</b><span>ADD·기존 연구진 · 기체·추진·항전 기업</span></div>
+      <p class="body-copy">2019–2024년 KAIST의 ADD 지원 Hoverbike 개발에서 <strong>Project POC</strong>로 연구실·참여기업 간 기술 조율과 비행제어·항전 통합·시험을 담당했습니다. 대형 기체·하이브리드 추진·다중화 항전 경험을 후속 공동개발에 활용하겠습니다.</p>
+      <div class="hoverbike-figures"><figure><img src="../assets/img/interview-hoverbike-prototype.png" alt="설계 제원이 함께 표기된 기존 Hoverbike 개발 시제기 사진"><figcaption>Hoverbike 개발 시제기 · 설계 제원 표기</figcaption></figure><figure><img src="../assets/img/interview-hoverbike-solidworks.png" alt="SolidWorks 기반 Hoverbike 시스템 구성도: 기체, 하이브리드 엔진, 항전·임무장비와 배터리 배치"><figcaption>SolidWorks 시스템 구성 · 기체·추진·항전</figcaption></figure></div>
+      <p class="source-note">그림 5. 본인 면접발표자료 PDF 8쪽의 시제기 사진·SolidWorks 구성도 원본 · 기존 개발·시험 경험</p>
+      <div class="award-note"><b>2023.12 국방과학연구소 공로상</b><span>수상 사유: 미래도전 국방기술 성과홍보 기여</span></div>
+      <p class="body-copy">대형 UAM급 무인기의 <strong>강건·적응 비행제어</strong>, 하이브리드 추진부하를 고려한 <strong>비행·에너지 관리</strong>, 다중화 항전·추진계의 <strong>통합·안전성 검증</strong>을 제안합니다. 기존 연구진·기업과 수요를 확인해 모델링·제어·시험 공동연구로 발전시키겠습니다.</p>
+    </article>
+
+    <div class="shared-outcomes"><div><strong>과제·연구비</strong><p>책임 과업·인력·장비·시험비 산정<br>기관별 역할에 맞춘 공동제안</p></div><div><strong>기업·기관</strong><p>탑재 SW·인터페이스·시험 결과<br>적용성 검토·기술이전 추진</p></div><div><strong>항공대·학생</strong><p>알고리즘·논문·활용 합의 데이터<br>학부 캡스톤·대학원 학위연구</p></div></div>
+    <p class="source-note">참여·예산·데이터 공개·지식재산·학생 참여조건은 과제별로 협의합니다. ADD 후속 연구는 미확정 신규 제안입니다.</p>
+    <footer class="page-footer"><span>항공 AI 설계·검증 · 대형 하이브리드 제어 · 기업 적용과 인재양성</span><span>05 / 05</span></footer>
   </section>
 </body>
 </html>
